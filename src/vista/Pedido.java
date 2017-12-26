@@ -27,7 +27,6 @@ public class Pedido extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         btvaso32 = new javax.swing.JRadioButton();
         btvaso20 = new javax.swing.JRadioButton();
@@ -55,8 +54,6 @@ public class Pedido extends javax.swing.JFrame {
         txtsoporteceramico = new javax.swing.JTextField();
         txtcantservifacil = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
-
-        jButton1.setText("jButton1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -262,7 +259,6 @@ public class Pedido extends javax.swing.JFrame {
     public javax.swing.JRadioButton btbidon5;
     public javax.swing.JRadioButton btvaso20;
     public javax.swing.JRadioButton btvaso32;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     public javax.swing.JLabel labelprecio;
