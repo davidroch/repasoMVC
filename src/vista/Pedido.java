@@ -55,6 +55,7 @@ public class Pedido extends javax.swing.JFrame {
         txtsoporteceramico = new javax.swing.JTextField();
         txtcantservifacil = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
+        btComprar = new javax.swing.JButton();
 
         jButton1.setText("jButton1");
 
@@ -78,23 +79,9 @@ public class Pedido extends javax.swing.JFrame {
 
         labelprecio.setText("$ PRECIO");
 
-        txtcantvaso32.setText("jTextField1");
-
-        txtcantvaso20.setText("jTextField2");
-
-        txtcantbidon5.setText("jTextField3");
-
-        txtcantbidon12.setText("jTextField4");
-
-        txtcantbidon20.setText("jTextField5");
-
-        txtsoportebajo.setText("jTextField6");
-
-        txtsoporteceramico.setText("jTextField7");
-
-        txtcantservifacil.setText("jTextField8");
-
         jLabel1.setText("Cantidad");
+
+        btComprar.setText("Comprar");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -103,31 +90,36 @@ public class Pedido extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(boxservifacil)
-                    .addComponent(boxsoporteceramico)
-                    .addComponent(boxsoportebajo)
-                    .addComponent(btbidon20)
-                    .addComponent(btbidon12)
-                    .addComponent(btbidon5)
-                    .addComponent(btvaso20)
-                    .addComponent(btvaso32))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(22, 22, 22)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(labelprecio, javax.swing.GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
-                            .addComponent(txtvaso32)
-                            .addComponent(txtvaso20)
-                            .addComponent(txtbidon5)
-                            .addComponent(txtbidon12)
-                            .addComponent(txtbidon20)
-                            .addComponent(txtsoportechico)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtsoportecer)
-                            .addComponent(txtservifacil))))
-                .addGap(52, 52, 52)
+                            .addComponent(boxservifacil)
+                            .addComponent(boxsoporteceramico)
+                            .addComponent(boxsoportebajo)
+                            .addComponent(btbidon20)
+                            .addComponent(btbidon12)
+                            .addComponent(btbidon5)
+                            .addComponent(btvaso20)
+                            .addComponent(btvaso32))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(22, 22, 22)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(labelprecio, javax.swing.GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
+                                    .addComponent(txtvaso32)
+                                    .addComponent(txtvaso20)
+                                    .addComponent(txtbidon5)
+                                    .addComponent(txtbidon12)
+                                    .addComponent(txtbidon20)
+                                    .addComponent(txtsoportechico)))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtsoportecer)
+                                    .addComponent(txtservifacil))))
+                        .addGap(52, 52, 52))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(btComprar, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(13, 13, 13)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -141,7 +133,7 @@ public class Pedido extends javax.swing.JFrame {
                             .addComponent(txtsoportebajo, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtsoporteceramico, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtcantservifacil, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(114, Short.MAX_VALUE))
+                .addContainerGap(69, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -195,7 +187,9 @@ public class Pedido extends javax.swing.JFrame {
                     .addComponent(boxservifacil)
                     .addComponent(txtservifacil, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtcantservifacil, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(121, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
+                .addComponent(btComprar)
+                .addGap(44, 44, 44))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -203,14 +197,14 @@ public class Pedido extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(18, 18, 18)
+                .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(270, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(22, 22, 22)
+                .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
@@ -257,6 +251,7 @@ public class Pedido extends javax.swing.JFrame {
     public javax.swing.JCheckBox boxservifacil;
     public javax.swing.JCheckBox boxsoportebajo;
     public javax.swing.JCheckBox boxsoporteceramico;
+    private javax.swing.JButton btComprar;
     public javax.swing.JRadioButton btbidon12;
     public javax.swing.JRadioButton btbidon20;
     public javax.swing.JRadioButton btbidon5;
